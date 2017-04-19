@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "ember-cli-dotenv",
-    "description": "api documentation for [ember-cli-dotenv (v1.2.0)](https://github.com/fivetanley/ember-cli-dotenv#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-ember-cli-dotenv.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-cli-dotenv) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-cli-dotenv.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-cli-dotenv)",
+    "description": "#### api documentation for  [ember-cli-dotenv (v1.2.0)](https://github.com/fivetanley/ember-cli-dotenv#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-cli-dotenv.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-cli-dotenv) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-cli-dotenv.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-cli-dotenv)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "ember-cli-dotenv": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
